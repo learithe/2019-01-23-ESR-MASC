@@ -289,11 +289,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below. <b>Participants in these ESR workshops will be 
-  provided with laptops to use that contain this software pre-installed. To use SQL or RStudio on 
-  your ESR laptops/desktops after the workshop, you will need to file an IMSG request. For use on 
-  your personal/home computers, you can follow the directions below. 
+  workshop, you will need access to the software described below. 
+  <b>During the ESR workshops, participants will be provided with laptops to use that contain this software 
+    pre-installed.</b> Setup for personal/home use of the software is described below. 
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
