@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                    # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "ESR Keneperu"    # brief name of host site without address (e.g., "Euphoric State University")
+venue: "ESR Keneperu Science Centre"    # brief name of host site without address (e.g., "Euphoric State University")
 address: "Keneperu Science Centre, Porirua"  # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "nz"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -118,10 +118,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Requirements:</strong> Laptops with the required software packages installed will be provided during the
+  workshop. For participants who wish to use this material on their personal computers after the workshop, instructions
+  for installing the specific software packages used are described <a href="#setup">below</a>).
+  All workshop participants are required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -290,8 +290,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to the software described below. <b>Participants in these ESR workshops will be 
+  provided with laptops to use that contain this software pre-installed. To use SQL or RStudio on 
+  your ESR laptops/desktops after the workshop, you will need to file an IMSG request. For use on 
+  your personal/home computers, you can follow the directions below. 
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
