@@ -48,7 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the website for the ESR Data Carpentry workshop held at KSC on 30-31 January..</h4>
+<h4>This is the website for the ESR Data Carpentry workshop held at MASC on 23-24 January..</h4>
 
 <h2 id="general">General Information</h2>
 
